@@ -1,20 +1,35 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# CareSync – Healthcare Management System
 
-# Run and deploy your AI Studio app
+## 📌 Overview
+**CareSync** is a healthcare management platform that simplifies patient care, clinic workflows, and communication. It provides a secure and centralized system for managing appointments, patient records, lab reports, prescriptions, and billing — all in one place.  
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/temp/2
+## 🚀 Features
+- 🏥 **Patient Records** – Complete medical history, diagnoses, and prescriptions  
+- 📅 **Appointment Scheduling** – Easy booking, rescheduling, and reminders  
+- 💬 **Teleconsultation** – Virtual visits via video and secure messaging  
+- 🧪 **Lab Integration** – Direct upload of diagnostic reports  
+- 💊 **E-Prescription** – Digital prescriptions with tracking  
+- 💰 **Billing & Invoicing** – Simplified payments and receipts  
+- 🔔 **Notifications** – Alerts for appointments, results, and medicines  
+- 📊 **Analytics Dashboard** – Insights on patients, revenue, and trends  
+- 🔐 **Security** – Encrypted data with role-based access  
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🛠️ Tech Stack
+- **Frontend**: HTML, CSS, JavaScript (React recommended)  
+- **Backend**: Node.js / Express (or Python Django/Flask)  
+- **Database**: MongoDB / MySQL / PostgreSQL  
+- **Authentication**: JWT / OAuth2  
+- **Deployment**: AWS / Vercel / Netlify / Render  
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## ⚙️ Installation & Setup
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/sandhiya-s86/CareSync.git
+cd CareSync
